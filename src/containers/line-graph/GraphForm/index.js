@@ -27,7 +27,6 @@ const generateApplyCallback = (xAxis, yAxis, data) => {
         newItem[yAxis] = moment(newItem[yAxis])
           .utc(true)
           .valueOf();
-      console.log(newItem[xAxis]);
       return newItem;
     })
   };

@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Container } from './styles';
 import AppHeader from '../AppHeader';
-import HomePage from '../HomePage';
-import LineGraphPage from '../LineGraphPage';
-import PostsPage from '../PostsPage';
+import HomePage from '../../pages/home';
+import LineGraphPage from '../../pages/line-graph';
+import PostsPage from '../../pages/posts';
 
 const App = () => (
   <Router>

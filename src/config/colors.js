@@ -4,5 +4,6 @@ export default Object.freeze({
   grey: '#737373',
   dark: '#333333',
   primary: '#00FF7F',
-  link: '#007BFF'
+  link: '#007BFF',
+  error: '#FF5C5C'
 });

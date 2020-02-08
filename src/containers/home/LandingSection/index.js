@@ -1,10 +1,9 @@
 import React from 'react';
-import { Container } from './styles';
-import Text from '../../components/Text';
-import Link from '../../components/Link';
+import Text from '../../../components/Text';
+import Link from '../../../components/Link';
 
-const HomePage = () => (
-  <Container>
+const LandingSection = () => (
+  <>
     <Text type="title">Welcome to Datagran Test!</Text>
     <Text color="grey">
       Navigate through the task using the navigation menu above.
@@ -15,7 +14,7 @@ const HomePage = () => (
         Med Shaaban
       </Link>
     </Text>
-  </Container>
+  </>
 );
 
-export default HomePage;
+export default LandingSection;

@@ -11,6 +11,7 @@ export const Container = styled.header`
   padding: 1.5rem;
   box-shadow: 0 1px 3px 0 ${({ theme }) => rgba(theme.dark, 0.1)},
     0 1px 2px 0 ${({ theme }) => rgba(theme.dark, 0.06)};
+  z-index: 1;
 `;
 
 export const AppLogo = styled.img`

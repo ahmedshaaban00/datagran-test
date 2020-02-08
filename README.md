@@ -38,6 +38,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Styled Components
 - Polished
 - React HightCharts
+- MomentJS
+- Papa Parse
 
 ## Author
 

@@ -40,6 +40,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React HightCharts
 - MomentJS
 - Papa Parse
+- Axios
 
 ## Author
 
